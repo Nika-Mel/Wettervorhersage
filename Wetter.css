@@ -1,0 +1,60 @@
+body {
+    background-image: url(Bilder/clouds-7050884_1920.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#wetterbestimmung{
+    background-color: none;
+    margin: auto;
+    margin-top: 10%;
+    width: 25%;
+    border-radius: 10%;
+}
+#wetterbestimmung h1{
+    text-align:center;
+}
+#wetterbestimmung div{
+    margin: auto;
+}
+#ortsuche{
+    width: 70%;
+    padding-top: 4%;
+}
+#tageauswahl{
+    width: 70%;
+    padding-top: 5%;
+}
+#auswahl{
+    width: 50%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#hintergrund{
+    position: absolute;
+    top: 19%;
+    left: 37.5%;
+    background-color: white;
+    margin: auto;
+    width: 25%;
+    height: 250px;
+    opacity: 0.3;
+    border-radius: 10%;
+    z-index:-1;
+}
+#wetterbericht div p{
+    padding-bottom: 1px;
+}
+#wetterbericht div{
+    background-image: linear-gradient(to right, #000088, white);
+    width: 25%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 5%;
+}
+#wetterbericht div h2{
+    text-decoration: underline;
+    text-align:center;
+}
