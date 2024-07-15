@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wetterbericht</title>
+        <link href="Wetter.css" rel="stylesheet">
+    </head>
+    <body>
+        <script src="Koordination-2.js"></script>
+        <div id="hintergrund">    </div>
+        <div id="wetterbestimmung">
+        <h1>Wetter-Vorhersage</h1>
+        <div id="ortsuche">
+            <label for="ort">Ort: </label>
+            <input type="text" name="ort" id="ort">
+        </div>
+        <div id="tageauswahl">
+            <label for="anzahl[]">Anzahl Tage:</label>
+            <select name="anzahl[]" id="anzahl">
+                <option value="1">1 Tag</option>
+                <option value="2">2 Tage</option>
+                <option value="3">3 Tage</option>
+                <option value="4">4 Tage</option>
+                <option value="5">5 Tage</option>
+                <option value="6">6 Tage</option>
+                <option value="7">7 Tage</option>
+            </select><br>
+        </div>
+        <div id="auswahl">
+            <button type="button" onclick="auswertungHeute()">Zeig mir das Wetter!</button>
+        </div>
+        </div>
+        
+        <div id="wetterbericht">
+            <div id="tag1"></div>
+            <div id="tag2"></div>
+            <div id="tag3"></div>
+            <div id="tag4"></div>
+            <div id="tag5"></div>
+            <div id="tag6"></div>
+            <div id="tag7"></div>
+        </div>
+    </body>
+</html>
